@@ -17,7 +17,7 @@ public class Passerotto extends AbstractAnimale implements Volante {
 
     @Override
     public void mangia() {
-        System.out.println("Semi");
+        System.out.println("Mangio semi");
     }
 
     @Override

@@ -17,7 +17,7 @@ public class Aquila extends AbstractAnimale implements Volante {
 
     @Override
     public void mangia() {
-        System.out.println("Carne e Pesce");
+        System.out.println("Mangio carne e pesce");
     }
 
     @Override

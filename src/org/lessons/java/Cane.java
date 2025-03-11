@@ -15,7 +15,7 @@ public class Cane extends AbstractAnimale {
 
     @Override
     public void mangia() {
-        System.out.println("Carne, Pesce, Latticini, Frutta e Verdura");
+        System.out.println("Mangio carne, pesce, latticini, frutta e verdura");
     }
 
 }

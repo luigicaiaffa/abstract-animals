@@ -17,7 +17,7 @@ public class Delfino extends AbstractAnimale implements Nuotante {
 
     @Override
     public void mangia() {
-        System.out.println("Pesce e Crostacei");
+        System.out.println("Mangio pesce e crostacei");
     }
 
     @Override
