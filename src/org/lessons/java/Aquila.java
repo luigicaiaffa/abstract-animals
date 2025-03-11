@@ -1,6 +1,8 @@
 package org.lessons.java;
 
-public class Aquila extends AbstractAnimale {
+import org.lessons.java.interfaces.Volante;
+
+public class Aquila extends AbstractAnimale implements Volante {
 
     public Aquila(String name, String spec, int age) {
         this.name = name;
@@ -16,5 +18,10 @@ public class Aquila extends AbstractAnimale {
     @Override
     public void mangia() {
         System.out.println("Carne e Pesce");
+    }
+
+    @Override
+    public void vola() {
+        System.out.println("Sto Volando");
     }
 }

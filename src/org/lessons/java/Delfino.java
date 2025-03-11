@@ -1,6 +1,8 @@
 package org.lessons.java;
 
-public class Delfino extends AbstractAnimale {
+import org.lessons.java.interfaces.Nuotante;
+
+public class Delfino extends AbstractAnimale implements Nuotante {
 
     public Delfino(String name, String spec, int age) {
         this.name = name;
@@ -16,5 +18,10 @@ public class Delfino extends AbstractAnimale {
     @Override
     public void mangia() {
         System.out.println("Pesce e Crostacei");
+    }
+
+    @Override
+    public void nuota() {
+        System.out.println("Sto Nuotando");
     }
 }
